@@ -1,0 +1,36 @@
+body {
+    background-image: url("backgroundcss.jpg");
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(31, 9, 224);
+    text-decoration: none;
+}
+
+img {
+    position: relative;
+    top: -150px;
+    left: 400px;
+    width: 40%;
+    border-radius: 15px;
+}
+
+#text {
+    font-family: 'Roboto', sans-serif;
+    color:rgb(240, 6, 6);
+}
+
+#box {
+    width: 55%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(235, 235, 235, 0.5);
+}
