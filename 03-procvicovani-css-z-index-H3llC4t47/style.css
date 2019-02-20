@@ -1,0 +1,47 @@
+#canvas {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#canvas img {
+    border: 1px dashed #aaa;
+    opacity: 1;
+    position: absolute;
+    transition: 1s;
+}
+
+#jedna {
+    z-index: 1;
+    top: 50px;
+    left: 100px;
+}
+
+#dva {
+    z-index: 2;
+    top: 100px;
+    left: 200px;
+}
+
+#tri {
+    z-index: 3;
+    top: 150px;
+    left: 300px;
+}
+
+#ctyri {
+    z-index: 4;
+    top: 200px;
+    left: 400px;
+}
+
+#pet {
+    z-index: 5;
+    top: 250px;
+    left: 500px;
+}
+
+#canvas img:hover {
+    opacity: 0.90;
+    transform: translate(-150px);
+}
