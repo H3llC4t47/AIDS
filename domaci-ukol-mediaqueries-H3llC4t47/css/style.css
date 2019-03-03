@@ -36,20 +36,20 @@ footer {
     width: 100%;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    #fix-container {
+        width: 100%;
+    }
+    #gallery-wrapper .gallery-item {
+        flex-basis: 50%;
+    }
+}
+
 @media screen and (max-width: 800px) {
-    #galerry-wrapper .gallery-item {
-        width:100%;
+    #fix-container {
+        width: 100%;
     }
-}
-
-@media screen and (max-width: 1200px) {
-    #galerry-wrapper .galerry-item {
-        width: 50%;
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    #galerry-wrapper .galerry-item {
-        width: 25%;
+    #gallery-wrapper .gallery-item {
+        flex-basis: 100%;
     }
 }
